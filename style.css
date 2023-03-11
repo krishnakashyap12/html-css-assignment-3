@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+} 
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 8vh;
+}
+.logo{
+    display: flex;
+    height: 35px;
+    margin-left: 30px;
+    padding-right:40px;
+    
+    border-right: 1px solid gray;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap:50px
+}
+.list-items{
+    margin-left: 130px;
+}
+.list-items li{
+    color: white;
+    list-style: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+.btn{
+    margin-left: 740px;
+    padding: 12px 15px 12px 15px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(188, 63, 188);
+    cursor: pointer;
+}
+
+ 
+
+.text{
+    font-weight: 1000;
+    margin-top: 90px;
+    color: white;
+    margin-left: 480px;
+    font-size: 100px;
+}
+.smalltext{
+    font-weight: 500;
+    color: white;
+    margin-left: 590px;
+    font-size: 30px;
+    margin-top: 9px;
+}
+.btn1{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+    color: white;
+    margin-left: 680px;
+    font-size: 30px;
+    margin-top: 60px;
+    background-color:rgb(165, 45, 165) ;
+    /* padding: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border:1px solid rgb(192, 54, 192)
+
+
+}
